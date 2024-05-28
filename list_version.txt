@@ -1,0 +1,26 @@
+Algorithm: Managing Professions
+
+1. Define the Professions class:
+
+   a. Implement the constructor method '__init__':
+      - Initialize an empty list called 'professions' to store details of professionals.
+
+   b. Implement a method 'add_profession' within the class:
+      - Takes parameters for name, profession type, and experience.
+      - Appends a dictionary containing these details to the 'professions' list.
+
+   c. Implement a method 'log_professions' within the class:
+      - Prints a header indicating that the following output will display professions.
+      - Iterates through each profession in the 'professions' list.
+      - Prints the name, type, and experience of each profession.
+
+2. Create an instance of the Professions class named 'professions'.
+
+3. Start adding professions interactively:
+   a. Begin an indefinite loop.
+   b. Prompt the user to enter the name of a professional or 'done' to finish.
+   c. If the user enters 'done', exit the loop.
+   d. Otherwise, ask for the profession type and experience of the professional.
+   e. Call the 'add_profession' method of the 'professions' instance to add the entered details to the list.
+
+4. After exiting the loop, call the 'log_professions' method to display the details of all added professions.
